@@ -1,0 +1,45 @@
+table, th, td{
+	border: 1px double black;
+}
+
+thead{font-weight:bold}
+
+tbody>tr>th{font-style:italic; font-weight:normal}
+tbody>tr>td:nth-child(2){color:red}
+tbody>tr>td:nth-child(4){color:blue}
+tbody>tr:nth-child(odd){background-color:#81F79F}
+tbody>tr:nth-child(even){background-color:#A9D0F5}
+
+dt:hover + dd{background-color:purple}
+
+form{margin-bottom:20px;}
+fieldset>div{
+	border: 1px solid black; 
+	padding: 1em;
+	margin: 1em;
+}
+
+.outer-content{
+	text-align:center;
+	background-color:pink;
+	width:75%;
+	margin-top:20px;
+	display:block
+	margin-bottom:20px;
+}
+
+.inner-content{
+	background-color:blue;
+	width:75%;
+	display:inline-block;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+img{	
+	height: 100px;
+	width:125px;
+	margin-right: 10px;
+	display:inline-block;
+	float:left;
+}
