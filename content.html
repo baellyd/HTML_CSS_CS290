@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS290 HTML/CSS</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+		<table>
+			<caption>This table provides planetary statistics for 5 planets</caption>
+			<thead>
+				<tr><th><th>Mercury<th>Venus<th>Earth<th>Mars<th>Jupiter
+			<tbody>
+				<tr><th>Mass(10<sup>24</sup>kg)<td>0.330<td>4.87<td>5.97<td>0.642<td>1898
+				<tr><th>Diameter (km)<td>4,880<td>12,103.6<td>12,756.3<td>6,794<td>142,984
+				<tr><th>Gravity(m/s<sup>2</sup>)<td>3.7<td>8.9<td>9.8<td>3.7<td>23.1
+				<tr><th>Temp(dg C)<td>167<td>464<td>15<td>-65<td>-110
+				<tr><th># Moons<td>0<td>0<td>1<td>2<td>67
+			<tfoot>
+				<tr><td colspan = "2">Footer 1<td colspan = "4">Footer 2
+		</table>
+		
+		<dl>
+			<dt>A salty cheese</dt>
+			<dd>Feta</dd>
+			<dt>A stinky cheese</dt>
+			<dd>Limburger</dd>
+			<dt>A creamy cheese</dt>
+			<dd>Gouda</dd>
+		</dl>
+		
+		<div class = "outer-content">
+			<div class = "inner-content">Here is some content to read.</div>
+		</div>
+		
+		<form action= "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method= "post">
+			<fieldset><legend>Post Form</legend> 			
+				<div>
+					<fieldset>
+						<label>Some text input:</label>
+						<input type= "text" name="text_input">
+					</fieldset>
+				</div>					
+				<div>
+					<fieldset>
+						<label>Some numeric input: </label>
+						<input type= "number" name= "numerical_input">
+					</fieldset>
+				</div>
+				<div">
+					<fieldset>
+						<label>Password here:</label>
+						<input type= "password" name= "password_input">
+					</fieldset>
+				</div>
+				<div>
+					<fieldset>
+						<legend>Select between:</legend>
+						<p><input type= "radio" name= "candy" value= "Snickers" />
+						<label>Snickers</label></p>
+						<p><input type= "radio" name= "candy" value= "Skittles" />
+						<label>Skittles</label></p>
+						<p><input type="radio" name="candy" value= "Mentos" />
+						<label>Mentos</label>
+						</p>
+						<button type= "submit">Submit</button>
+					</fieldset>	
+				</div>
+			</fieldset>
+		</form> 
+		
+		<form action= "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method= "get">
+			<fieldset><legend>Get Form</legend> 			
+				<div class= "form_entry">
+					<fieldset>
+						<label>Some text input:</label>
+						<input type= "text" name="text_input">
+					</fieldset>
+				</div>					
+				<div class= "form_entry">
+					<fieldset>
+						<label>Some numeric input: </label>
+						<input type= "number" name= "numerical_input">
+					</fieldset>
+				</div>
+				<div class= "form_entry">
+					<fieldset>
+						<label>Password here:</label>
+						<input type= "password" name= "password_input">
+					</fieldset>
+				</div>
+				<div>
+					<fieldset>
+						<legend>Select between:</legend>
+						<p><input type= "radio" name= "candy" value= "Snickers" />
+						<label>Snickers</label></p>
+						<p><input type= "radio" name= "candy" value= "Skittles" />
+						<label>Skittles</label></p>
+						<p><input type="radio" name="candy" value= "Mentos" />
+						<label>Mentos</label>
+						</p>
+						<button type= "submit">Submit</button>
+					</fieldset>	
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
